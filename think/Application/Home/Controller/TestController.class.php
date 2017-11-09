@@ -2,14 +2,15 @@
 /**
  * Created by PhpStorm.
  * User: Administrator
- * Date: 2017/9/11
- * Time: 12:09
+ * Date: 2017/9/4
+ * Time: 13:00
  */
+
 namespace Home\Controller;
 use Think\Controller;
-class TaskController extends Controller {
-    public function index()
-    {
+class TestController extends Controller{
+    public function baoneiweixiu0(){
         $this->display();
     }
+
 }
