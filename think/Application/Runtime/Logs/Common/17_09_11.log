@@ -1,0 +1,288 @@
+[ 2017-09-11T15:07:35+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:12+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:12+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/c24.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:12+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/c1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:12+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/c6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:12+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/c3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:12+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/c5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:12+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/c4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:12+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/erweima.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:15+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/c3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:15+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:15+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/c6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:15+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/c24.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:15+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/c4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:15+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/c1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.035002s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:15+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/c5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:09:15+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/erweima.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:10:19+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/images/c1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:10:19+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:10:19+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/images/c24.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:10:19+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/images/c3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:10:19+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/images/erweima.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:10:19+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/images/c5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:10:19+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/images/c4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032002s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:10:19+08:00 ] ::1 /thinkphp_3.2.3_full/Public/image/images/c6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:26+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:26+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:26+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:26+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:26+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:26+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c24.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:26+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:26+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/erweima.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:30+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:30+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c24.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.008001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:30+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:30+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:30+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:30+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:30+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:11:30+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/erweima.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:12:24+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:12:24+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c24.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:12:24+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:12:24+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:12:24+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.018001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:12:24+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-11T15:12:24+08:00 ] ::1 /thinkphp_3.2.3_full/Public/images/images/c5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Hello,{$name}！
+<br/>
+Name：{$data.name}<br/>
+Email：{$data.email}<br/>
+
+{$Think.const.MODULE_NAME}<br/>
+
+{$Think.server.script_name} // 输出$_SERVER['SCRIPT_NAME']变量<br/>
+{$Think.session.user_id} // 输出$_SESSION['user_id']变量<br/>
+{$Think.get.pageNumber} // 输出$_GET['pageNumber']变量<br/>
+{$Think.cookie.name}  // 输出$_COOKIE['name']变量<br/>
+
+</body>
+</html>
