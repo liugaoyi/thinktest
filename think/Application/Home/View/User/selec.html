@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+    <if condition="$user eq '蜡笔小新'">
+        小新
+        <elseif condition="$user eq '小新'"/>
+            一护
+        <else/>
+         错误
+    </if>
+    <if condition="mb_substr($user,0,3,'UTF-8') eq '蜡笔小新'">小新</if>
+    <if condition="$data.user eq '蜡笔小新'">小新</if>
+    <if condition="$data['user'] eq '蜡笔小新'">小新</if>
+    <if condition="$data.user eq '蜡笔小新'">小新</if>
+    <if condition="$Think.get.user eq '蜡笔小新'">小新</if>
+    <switch name="user">
+        <case value="蜡笔小新">小新</case>
+        <case value="黑崎一护">一护</case>
+        <default/>错误
+    </switch>
+    <eq name="user" value="蜡笔小新">小新</eq>
+    <compare name="user" value="蜡笔小新" type="eq">小新</compare>
+
+    <in name="id"  value="1,2,3">
+        id是其中一个
+        <else/>
+        id不是其中一个
+    </in>
+    <between name="id" value="1,10">id在指定的范围内</between>
+    <notbetween name="id" value="1,10">id在指定的范围内</notbetween>
+
+    <between name = "id" value="1,10">
+        id在指定的范围内
+        <else/>
+        id不在指定的范围内
+    </between>
+    <range name="id" value="1,2,3" type="in">id是其中一个</range>
+
+    <range name="id" value="1,2,3" type="in">id是其中一个
+        <else/>
+        id不是其中一个
+    </range>
+
+    <in name="Think.get.id" value="1,2,3">id是其中一个</in>
+
+    <in name="id" value="$Think.get.arr">id是其中一个</in>
+
+    <present name="user">user已存在</present>
+    <notpresent name="user">user不存在</notpresent>
+    <present name="user">user已存在
+        <else/>
+        user不存在
+    </present>
+    <present name="Think.get.user">$_GET['user']已存在</present>
+
+-->
+
+    <ul>
+        <volist name="data" id="arr">
+            <li>{$arr.id} -- {$arr.name} -- {$arr.email}</li>
+        </volist>
+    </ul>
+</body>
+</html>

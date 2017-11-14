@@ -1,0 +1,32 @@
+[ 2017-11-12T11:41:58+08:00 ] ::1 /thinktest/think/Home/User/create
+ERR: 无法加载控制器:Home
+
+[ 2017-11-12T14:19:54+08:00 ] ::1 /thinktest/think/User/add
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`name`,`email`,`date`) VALUES ('刘鹏','lp@qq.com','2017-11-12 14:19:54')
+
+[ 2017-11-12T14:38:40+08:00 ] ::1 /thinktest/think/User/select
+ERR: 1054:Unknown column 'user' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`user`,`email` FROM `think_user` 
+
+[ 2017-11-12T17:03:38+08:00 ] ::1 /thinktest/think/User/index
+ERR: 模板不存在:./Application/Home/View/Public/layout.html
+
+[ 2017-11-12T17:05:25+08:00 ] ::1 /thinktest/think/User/index
+ERR: 模板不存在:./Application/Home/View/Public/layout.html
+
+[ 2017-11-12T17:09:08+08:00 ] ::1 /thinktest/think/User/index
+ERR: 模板不存在:./Application/Home/View/Public/layout.html
+
+[ 2017-11-12T17:09:09+08:00 ] ::1 /thinktest/think/User/index
+ERR: 模板不存在:./Application/Home/View/Public/layout.html
+
+[ 2017-11-12T17:09:10+08:00 ] ::1 /thinktest/think/User/index
+ERR: 模板不存在:./Application/Home/View/Public/layout.html
+
+[ 2017-11-12T17:09:11+08:00 ] ::1 /thinktest/think/User/index
+ERR: 模板不存在:./Application/Home/View/Public/layout.html
+
+[ 2017-11-12T17:09:16+08:00 ] ::1 /thinktest/think/User/model
+ERR: 模板不存在:./Application/Home/View/Public/layout.html
+
