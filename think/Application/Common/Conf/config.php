@@ -24,4 +24,8 @@ return array(
     //页面调试工具
     'SHOW_PAGE_TRACE' =>true,
 
+    //设置内置标签 ，就不需要标签预加载了
+    //'TAGLIB_BUILD_IN' => 'cx,html',
+    //'TAGLIB_PRE_LOAD' => 'html',
+
 );
