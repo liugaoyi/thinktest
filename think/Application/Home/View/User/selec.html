@@ -3,6 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <!--
+        <script type="text/javascript" src="__PUBLIC__/js/selec.js"></script>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/selec.css"/>
+
+        <import type="js" file="js.selec" basepath="./Common"/>
+        <import type="css" file="css.selec"/>
+
+        <load href="__PUBLIC__/js/selec.js"/>
+        <load href="__PUBLIC__/css/selec.css"/>
+
+        <js href="__PUBLIC__/js/selec.js"/>
+        <css href="__PUBLIC__/css/selec.css"/>
+    -->
 </head>
 <body>
 <!--
@@ -58,12 +71,83 @@
     </present>
     <present name="Think.get.user">$_GET['user']已存在</present>
 
--->
-
-    <ul>
-        <volist name="data" id="arr">
+     <ul>
+        <volist name="data" id="arr" >
             <li>{$arr.id} -- {$arr.name} -- {$arr.email}</li>
         </volist>
     </ul>
+
+     <ul>
+        <volist name="data" id="arr" key="k">
+            <li>{$k}.{$arr.id} -- {$arr.name} -- {$arr.email}</li>
+        </volist>
+    </ul>
+
+    ul>
+        <volist name="data" id="arr" key="k" mod="2">
+            <eq name="mod" value="1">
+                <li>{$k}.{$arr.id} -- {$arr.name} -- {$arr.email}</li>
+            </eq>
+        </volist>
+    </ul>
+
+    <ul>
+        <volist name="data" id="arr" >
+            <li>{$i}.{$arr.id} -- {$arr.name} -- {$arr.email}</li>
+        </volist>
+    </ul>
+
+    <ul>
+        <volist name="data" id="arr" >
+            <li>{$key}.{$arr.id} -- {$arr.name} -- {$arr.email}</li>
+        </volist>
+    </ul>
+
+    <ul>
+        <volist name="data" id="arr" empty="没有数据">
+            <li>{$key}.{$arr.id} -- {$arr.name} -- {$arr.email}</li>
+        </volist>
+    </ul>
+
+    <ul>
+        <volist name="data" id="arr" empty="$empty">
+            <li>{$key}.{$arr.id} -- {$arr.name} -- {$arr.email}</li>
+        </volist>
+    </ul>
+
+    <ul>
+        <foreach name="data" item="arr">
+            <li>{$key}.{$arr.id} -- {$arr.name} -- {$arr.email}</li>
+        </foreach>
+   </ul>
+
+   <for start="1" end="100" comparison="lt" step="2" name="k">
+        {$k}<br/>
+    </for>
+
+     <assign name="var" value="123"/>
+    {$var}
+    //模板变量
+    <define name="MY_NAME" value="456"/>
+    {$Think.const.MY_NAME}
+    //模板常量
+
+    <php>
+        echo 1+2;
+    </php>
+
+    <?php
+        echo 1+3;
+    ?>
+
+    <literal>
+        <php>
+            echo 1+2;
+        </php>
+    </literal>
+-->
+
+
+
 </body>
 </html>
