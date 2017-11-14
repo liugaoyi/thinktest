@@ -49,6 +49,7 @@ class UserController extends Controller
         $this->assign('user',$user);
         //$this->assign('data',array('user'=>'蜡笔小新'));
         $this->assign('data',$user->select());
+        $this->assign('empty','<strong style="color: red">没有数据</strong>');
         $this->assign('id',1);
         $this->display();
     }
