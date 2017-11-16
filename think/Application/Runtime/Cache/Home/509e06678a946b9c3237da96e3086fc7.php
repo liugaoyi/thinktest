@@ -94,7 +94,7 @@
         <?php if(is_array($data)): foreach($data as $key=>$arr): ?><li><?php echo ($key); ?>.<?php echo ($arr["id"]); ?> -- <?php echo ($arr["name"]); ?> -- <?php echo ($arr["email"]); ?></li><?php endforeach; endif; ?>
    </ul>
 
-   <?php $__FOR_START_16517__=1;$__FOR_END_16517__=100;for($k=$__FOR_START_16517__;$k < $__FOR_END_16517__;$k+=2){ echo ($k); ?><br/><?php } ?>
+   <?php $__FOR_START_5388__=1;$__FOR_END_5388__=100;for($k=$__FOR_START_5388__;$k < $__FOR_END_5388__;$k+=2){ echo ($k); ?><br/><?php } ?>
 
      <?php $var = '123'; ?>
     <?php echo ($var); ?>
@@ -117,6 +117,6 @@
     <html:select options="name" selected="value"/>
 -->
 
-    <div style="colorred;border:5px solid #ccc">测试标签</div>
+    <div style="color:red;border:5px solid #ccc">测试标签</div>
 </body>
 </html>

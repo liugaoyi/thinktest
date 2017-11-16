@@ -22,7 +22,7 @@ class Test extends  TagLib{
         $color='';
         $border='';
         if(isset($tag['color'])){
-            $color = 'color'.$tag['color'].';';
+            $color = 'color:'.$tag['color'].';';
         }
         if(isset($tag['border'])){
             $border = 'border:'.$tag['border'].'px solid #ccc';

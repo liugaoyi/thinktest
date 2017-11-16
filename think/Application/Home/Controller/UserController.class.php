@@ -1,5 +1,6 @@
 <?php
 namespace Home\Controller;
+use Home\Event\UserEvent;
 use Think\Controller;
 use Think\Model;
 
@@ -7,6 +8,44 @@ use Think\Model;
 
 class UserController extends Controller
 {
+    public function test(){
+       /* $flag = false;
+        if($flag){
+            $this->success('新增成功','all',10);
+        }else{
+            $this->error('新增失败');
+        }*/
+        //这里和u方法一样 传递的是规则
+        //$this->redirect('User/all',array('id=>5'),5,'页面跳转中...');
+        //redirect('http://baidu.com',5,'页面跳转中...');
+        //echo $_GET['id'];
+        //echo I('get.id',1);
+        //echo I('get.id','','md5');
+        //print_r(I('get.'));
+        //echo I('param.id');
+        //print_r(I('param.'));
+    }
+
+    public function all(){
+        echo '显示所有用户';
+    }
+
+     /*public  function test($id = 1,$type){
+        //$userEvent = new UserEvent();
+        //$userEvent = A('User','Event'); //$userEvent = A('Admin/User','Event');
+        $userEvent->test();
+        echo 'id:'.$id;
+    }*/
+
+
+    /*public function _before_test(){
+        echo '在之前执行';
+    }
+
+    public function _after_test(){
+        echo '在之后执行';
+    }*/
+
     public function user()
     {
         // $data['user'] = '都是';
