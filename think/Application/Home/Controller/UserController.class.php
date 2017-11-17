@@ -24,6 +24,7 @@ class UserController extends Controller
         //print_r(I('get.'));
         //echo I('param.id');
         //print_r(I('param.'));
+        print_r(I('param.0'));
     }
 
     public function all(){
