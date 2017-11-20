@@ -77,4 +77,15 @@ return array(
     'LANG_LIST'        => 'zh-cn,en-us', // 允许切换的语言列表 用逗号分隔
     'VAR_LANGUAGE'     => 'lang', // 默认语言切换变量
 
+    'HTML_CACHE_ON'     =>    true, // 开启静态缓存
+    'HTML_CACHE_TIME'   =>    60,   // 全局静态缓存有效期（秒）
+    'HTML_FILE_SUFFIX'  =>    '.html', // 设置静态缓存文件后缀
+    'HTML_CACHE_RULES'  =>     array(  // 定义静态缓存规则
+        // 定义格式1 数组方式
+        //'User:huancun' => array('{:module}_{:controller}_{:action}_{id}',60),
+        //'User:huancun' => array('{:module}/{:controller}/{:action}/{id}',60),
+        //'huancun'=>array('{id}'),
+        '*'=>array('{$_SERVER.REQUEST_URL|md5}'),
+    )
+
 );

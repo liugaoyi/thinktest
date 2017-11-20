@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>email</th>
+        <th>time</th>
+    </tr>
+    <foreach name="list" item="obj">
+        <tr>
+            <th>{$obj.id}</th>
+            <th>{$obj.name}</th>
+            <th>{$obj.email}</th>
+            <th>{$obj.date}</th>
+        </tr>
+    </foreach>
+</table>
+</body>
+</html>

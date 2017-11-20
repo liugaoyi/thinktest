@@ -7,8 +7,40 @@
  */
 namespace Home\Model;
 use Think\Model;
+use Think\Model\RelationModel;
 
-class UserModel extends Model{
+class UserModel extends RelationModel{
+
+    protected $_link = array(
+        'card'=>array(
+            'mapping_type' => self::HAS_ONE,
+            'foreign_key'=>'uid',
+            //'class_name' => 'card',
+            //'mapping_name' => 'abc',
+            'mapping_fields'=>'code',
+            'as_fields'=>'code',
+            //'condition'=>'id=1',
+        )
+
+        /*
+        'Content'=>array(
+            'mapping_type'=>self::HAS_MANY,
+            'foreign_key'=>'uid',
+            'class_name'=>'Content',
+            'mapping_name'=>'contents',
+            'mapping_fields'=>'content',
+            'mapping_limit'=>'0,2',
+            'mapping_order'=>'id DESC',
+        ),
+
+        'Cole'=>array(
+            'mapping_type' => self::MANY_TO_MANY,
+            'relation_table'=>'think_group',
+            'foreign_key'=>'uid',
+            'relation_foreign_key'=>'gid',
+        ),*/
+    );
+
     /*protected $fields = array('id','user','_pk'=>'id');
 
     //protected $insertFields = 'name';

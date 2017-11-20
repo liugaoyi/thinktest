@@ -1,0 +1,35 @@
+[ 2017-11-20T16:00:45+08:00 ] ::1 /thinktest/think/Home/Card/inde
+ERR: 非法操作:inde
+
+[ 2017-11-20T16:00:49+08:00 ] ::1 /thinktest/think/Home/Card/index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-11-20T16:01:30+08:00 ] ::1 /thinktest/think/Home/Card/index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-11-20T16:01:31+08:00 ] ::1 /thinktest/think/Home/Card/index
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-11-20T16:01:37+08:00 ] ::1 /thinktest/think/Home/Card/inde
+ERR: 非法操作:inde
+
+[ 2017-11-20T16:07:31+08:00 ] ::1 /thinktest/think/Home/Card/index
+ERR: 1054:Unknown column 'user' in 'field list'
+ [ SQL语句 ] : SELECT `user` FROM `think_user` WHERE ( 1=1 AND id='1' ) LIMIT 1  
+
+[ 2017-11-20T16:39:12+08:00 ] ::1 /thinktest/think/Home/User/onetoone
+ERR: 1146:Table 'thinkphptest.think_role' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_role`
+
+[ 2017-11-20T16:43:37+08:00 ] ::1 /thinktest/think/Home/User/addone
+ERR: 1364:Field 'date' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `think_user` (`name`,`email`) VALUES ('测试用户1','test1@qq.com')
+
+[ 2017-11-20T16:53:28+08:00 ] ::1 /thinktest/think/Home/User/saveone
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=>10 )' at line 1
+ [ SQL语句 ] : UPDATE `think_user` SET `name`='测试用户2',`email`='test2@qq.com',`date`='2017-11-20 16:53:28' WHERE (  id=>10 )
+
+[ 2017-11-20T17:06:46+08:00 ] ::1 /thinktest/think/Home/User/index
+ERR: 1055:Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'thinkphptest.Content.content' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQL语句 ] : SELECT User.id AS id,User.name AS name,User.email AS email,Content.content AS content FROM think_user User LEFT JOIN think_content Content ON User.id= Content.uid GROUP BY User.id 
+

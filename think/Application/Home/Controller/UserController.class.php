@@ -3,11 +3,89 @@ namespace Home\Controller;
 use Home\Event\UserEvent;
 use Think\Controller;
 use Think\Model;
+use Think\Page;
 
 //use Think\Model;
 
 class UserController extends Controller
 {
+    public function huancun(){
+        //echo C('DATA_CACHE_TYPE');
+        /*if(!$list = S('list')){
+            $user = D('User');
+            $list = $user->select();
+            S('list',$list);
+        }
+
+        if(!$list = F('list')){
+            $user = D('User');
+            $list = $user->select();
+            F('list',$list);
+        }*/
+
+        $user = D('User');
+        //$list = $user->cache(true)->select();
+        // $list = $user->cache('cache_user',10)->select();
+        //var_dump(S('cache_user'));
+        //S('cache_user',null);
+        $list = $user->select();
+        $this->assign('list',$list,10);
+        $this->display();
+    }
+
+    public function html(){
+       /* $user = D('UserView');
+        var_dump($user->group('id')->select());*/
+        $user = D('User');
+        $count = $user->count();
+        $page = new Page($count,1);
+        $page->setConfig('first','首页');
+        $page->setConfig('prev','上一页');
+        $page->setConfig('next','下一页');
+        $page->setConfig('last','末页');
+        $show = $page->show();
+        //echo $page->firstRow;
+        //echo $page->listRows;
+        $list = $user->limit($page->firstRow,$page->listRows)->select();
+        $this->assign('list',$list);
+        $this->assign('page',$show);
+        $this->display();
+    }
+
+    public function onetoone(){
+        $user = D('User');
+        $arr = $user->relation(true)->select();
+        //var_dump($arr);
+        print_r($arr);
+    }
+
+    public function addone(){
+        $user = D('User');
+        $data['name'] = '测试用户1';
+        $data['email'] = 'test1@qq.com';
+        $data['date'] = date('Y-m-d H:i:s');
+        $data['card'] = array(
+            'code' => '3209XX',
+        );
+        $user->relation(true)->add($data);
+    }
+
+    public function deleteone(){
+        $user = D('User');
+        $user->relation(true)->delete(9);
+    }
+
+    public function saveone(){
+        $user = D('User');
+        $data['name'] = '测试用户2';
+        $data['email'] = 'test2@qq.com';
+        $data['date'] = date('Y-m-d H:i:s');
+        $data['card'] = array(
+            'code' => '320922',
+        );
+        $user->relation(true)->where(array('id=10'))->save($data);
+    }
+
     public function test(){
        /* $flag = false;
         if($flag){
@@ -70,12 +148,12 @@ class UserController extends Controller
         $this->assign('user',$user);
         $this->display();
     }
-
+/*
     public function index(){
         $user = '蜡笔小新';
         $this->assign('user',$user);
         $this->display();
-    }
+    }*/
 
     public function model(){
         $user = '蜡笔小新';
